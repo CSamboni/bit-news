@@ -1,0 +1,22 @@
+{
+  "name": "BitNews",
+  "version": "1.0.0",
+  "description": "Bitcoin App con SSR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "author": "Cristian Samboni",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-manifest": "^1.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "isomorphic-unfetch": "^2.0.0"
+  }
+}
